@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: rgb(235, 230, 240);
+        
+            
+        }
+    </style>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <table style="width: 30%; background-color: aqua;" >
+    //if we give a style inline and internally then internal attribute will work
+    <tr>
+        <th rowspan="2">A</th>
+        <th colspan="2">B</th>
+        <TH rowspan="2">C</TH>
+    </tr>  
+    <tr>
+      <th rowspan="2">D</th>
+      <th >E</th>
+     </tr>  
+    <tr>
+        <th>F</th>
+        <TH colspan="2"><a href="INTERNAL CSS.html"> G</a></TH>
+    </tr>
+    <tr>
+        <th rowspan="3">H </th>
+        <th rowspan="2" colspan="2"><a href="download (1).jpg"> I</a></th>
+        <th>J</th>
+   </tr>
+   <tr>
+    <th>K </th>
+</tr>
+<tr>
+    <th>L</th>
+    <th colspan="2">M</th>
+</tr>
+ </table>
+</body>
+</html>
